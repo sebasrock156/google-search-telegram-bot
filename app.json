@@ -4,7 +4,8 @@
   "keywords": [
     "telegram",
     "google",
-    "search"
+    "search",
+    "manager"
   ],
   "repository": "https://github.com/sebasrock156/google-search-telegram-bot",
   "env": {
@@ -53,6 +54,18 @@
       "description": "Port to use for your webhooks",
       "value": "8443"
     },
+    "DEL_CMDS": {
+      "description": "Whether to delete commands from users which don't have rights to use that command",
+      "value": "True"
+    },
+    "STRICT_GBAN": {
+      "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+      "value": "True"
+    },
+    "ALLOW_EXCL": {
+      "description": "Whether to allow using exclamation marks ! for commands as well as /.",
+      "value": "True"
+    }
   },
   "addons": [
     {
