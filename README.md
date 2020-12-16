@@ -1,4 +1,4 @@
-# Unofficial Google Search Bot for Telegram
+# Unofficial Google Search Bot for Telegram (for next Heroku apps)
 Telegram bot (support both inline/chat) that return search results (web/image)
 from Google
 
